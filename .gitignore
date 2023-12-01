@@ -146,3 +146,8 @@ ipch/
 
 # Visual Studio Trace Files
 *.e2e
+
+#pycharm
+.idea
+
+cmake-build-debug

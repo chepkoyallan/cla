@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 project(
-    "CppTemplate"
+    "chem"
     VERSION 1.0.0
     LANGUAGES C CXX)
 
@@ -36,6 +36,7 @@ option(ENABLE_LTO "Enable to add Link Time Optimization." ON)
 
 # Project/Library Names
 set(LIBRARY_NAME "lib")
+set(CLA_NAME "")
 set(UNIT_TEST_NAME "unit_tests")
 set(EXECUTABLE_NAME "main")
 

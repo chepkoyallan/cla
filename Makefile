@@ -6,6 +6,11 @@ install:
 prepare:
 	rm -rf build
 	mkdir build
+	flex -+ -o src/my_lib/lexer.cc lexer/lexer.ll
+	bison -o src/my_lib/parser.cc parser/parser.y
+
+scanner:
+	flex -+ -o src/my_lib/lexer.cc lexer/lexer.ll
 
 conan_d:
 	rm -rf build

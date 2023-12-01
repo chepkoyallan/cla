@@ -1,1 +1,2 @@
-add_subdirectory(my_lib)
+add_subdirectory(chem)
+add_subdirectory(my_parse)
